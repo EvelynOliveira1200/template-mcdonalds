@@ -1,0 +1,50 @@
+
+.esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    height: 100%;
+}
+
+.bloco{
+    display: flex;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    border-radius: 1rem ;
+    box-shadow: black 0.1rem 0.1rem 0.4rem;
+}
+
+.bloco:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+    transition: transform 0.5s ease-in-out;
+}
+
+.imglunch3 {
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #da291c;
+    width: 90%;
+}
+
+
+.textp {
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: justify;
+}

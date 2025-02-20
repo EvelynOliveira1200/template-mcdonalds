@@ -2,4 +2,14 @@
     height: 5rem;
     background-color: #da291c;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.text {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    font-weight: bold;
+}
+
