@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    flex-direction: row;
+    height: 100%;
+}
+
+.esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    height: 100%;
+}
+
+.bloco{
+    display: flex;
+    padding: 1rem;
+    background-color: #dddada;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+    border-radius: 1rem ;
+
+}
+
+.direito {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.img {
+    height: 80%;
+    width: 70%;
+}

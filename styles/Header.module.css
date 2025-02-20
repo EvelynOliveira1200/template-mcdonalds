@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #da291c;
+    height: 8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 100%;
+    width: 10%;
+}
