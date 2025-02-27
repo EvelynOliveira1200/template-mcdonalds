@@ -1,13 +1,13 @@
 import styles from "../styles/Cards.module.css";
 
-export default function Cards({ title, text, image }) {
+export default function Cards({ image, title, text }) {
     return (
         <div className={styles.bloco}>
-                <div className={styles.imagembloco}>{image && <img src={image} />}</div>
-                <div className={styles.text}>
-                <h2>{title}</h2>
-                <p>{text}</p>
-                </div>
+            <img src={image} alt={title} className={styles.imagembloco} />
+            <div className={styles.elementos}>
+            <h2 className={styles.title}>{title}</h2>
+            <p className={styles.textp}>{text}</p>
+            </div>
         </div>
     );
 }
