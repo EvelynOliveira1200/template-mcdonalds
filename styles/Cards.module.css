@@ -17,18 +17,20 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #264211;
-    width: 70%;
+    width: auto; 
+    max-width: 70%; 
 }
 
 .textp {
     font-size: 1rem;
-    width: 90%;
+    width: auto; 
+    max-width: 90%; 
     text-align: justify;
 }
 
 .imagembloco {
     width: 10rem;
-    height:10rem;
+    height: 10rem;
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
@@ -41,3 +43,64 @@
     justify-content: center;
     height: 10%; 
 }
+
+@media (max-width: 1024px) { 
+    .bloco {
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        max-width: 70%;
+    }
+
+    .textp {
+        font-size: 0.9rem;
+        max-width: 70%;
+    }
+
+    .imagembloco {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .elementos {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .bloco {
+        flex-direction: column;
+        width: 80%;
+        padding: 0.8rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        max-width: 70%;
+    }
+
+    .textp {
+        font-size: 0.9rem;
+        max-width: 70%;
+    }
+
+    .imagembloco {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .elementos {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
