@@ -31,10 +31,11 @@
         height: 3.5rem;
         justify-content: center;
         align-items: center;
+
     }
 
     .text {
         font-size: 0.8rem;
-        width: 80%;
+        width: 85%; 
     }
 }

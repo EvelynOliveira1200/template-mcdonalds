@@ -11,9 +11,10 @@
     align-items: center;
     padding: 1rem;
     flex-direction: row;
-    flex: 1; 
+    flex: 1;
     width: 100%;
     gap: 2rem;
+    height: 100%;
 }
 
 .fundo {
@@ -31,31 +32,30 @@
     z-index: -1;
 }
 
-.esquerdo {
+.esquerdo, .direito {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex: 1;
     height: 100%;
     gap: 2rem;
-    margin-left: 5rem;
+    flex-direction: column;
+    margin: 0; 
+}
+
+.esquerdo {
+    margin-left: 4rem; 
 }
 
 .direito {
-    display: flex;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    gap: 2rem;
+    margin-right: 0; 
 }
 
 .imgdireita {
     width: 60%;
-    height: 60%;
+    height: auto;
     border-radius: 1rem;
-    align-items: center;
-    justify-content: center;
+    margin-left: 2rem;
 }
 
 @media (max-width: 1024px) { 
@@ -65,9 +65,16 @@
     }
 
     .esquerdo, .direito {
-        width: 100%;
+        width: 90%;
         height: auto;
-        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .esquerdo {
+        margin-left: 5rem; 
+        margin-right: 0;
     }
 
     .imgdireita {
@@ -85,7 +92,11 @@
     .esquerdo, .direito {
         width: 100%;
         height: auto;
-        margin-left: 0;
+        margin: 0; 
+    }
+
+    .direito {
+        margin-right: 4rem;
     }
 
     .imgdireita {

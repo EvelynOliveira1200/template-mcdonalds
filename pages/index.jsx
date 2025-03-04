@@ -10,7 +10,7 @@ export default function Home() {
         <div className={styles.container}>
             <Header />
 
-            <div className={styles.fundo}></div> {/* Div de fundo */}
+            <div className={styles.fundo}></div> 
 
             <main className={styles.main}>
                 <section className={styles.esquerdo}>
