@@ -15,7 +15,7 @@ export default function Home() {
             <main className={styles.main}>
                 <section className={styles.esquerdo}>
                     <div className={styles.bloco}>
-                        <Cards image="/cardsrapina.png" title="Conheça o Crossfit" text="O CrossFit é um programa de treinamento físico completo que combina exercícios de força, resistência, flexibilidade e cardio." />
+                        <Cards image="/cardsrapina.png" title="Conheça o Crossfit" text="O CrossFit é um programa de treinamento físico completo que combina exercícios de força, resistência, flexibilidade e cardio!" />
                         <Cards image="/cardsrapina.png" title="Conheça o Crossfit" text="O CrossFit é um programa de treinamento físico completo que combina exercícios de força, resistência, flexibilidade e cardio. " />
                         <Cards image="/cardsrapina.png" title="Conheça o Crossfit" text="O CrossFit é um programa de treinamento físico completo que combina exercícios de força, resistência, flexibilidade e cardio." />
                     </div>
