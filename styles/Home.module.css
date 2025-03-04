@@ -72,11 +72,6 @@
         align-items: center;
     }
 
-    .esquerdo {
-        margin-left: 5rem; 
-        margin-right: 0;
-    }
-
     .imgdireita {
         width: 70%;
         height: auto;
